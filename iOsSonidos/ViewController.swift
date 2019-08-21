@@ -1,18 +1,31 @@
-//
-//  ViewController.swift
-//  iOsSonidos
-//
-//  Created by Alumno on 21/08/19.
-//  Copyright © 2019 Alumno. All rights reserved.
-//
-
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBAction func DoTapReproducir(_ sender: Any) {
+        if player != nil {
+            player?.play()
+        }
+        
+    }
+    var player : AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = Bundle.main.path(forResource: "AUDIO.wav", ofType: nil)
+        let url = URL(fileURLWithPath: path!)
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+        } catch {
+            
+        }
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
