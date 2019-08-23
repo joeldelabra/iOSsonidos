@@ -3,22 +3,44 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    
+    var player : AVAudioPlayer?
+    var player2: AVAudioPlayer?
+    
+    var reproduccion = false
+    
     @IBAction func DoTapReproducir(_ sender: Any) {
+        if reproduccion{
+            let path = Bundle.main.path(forResource: "Chavez_03.wav", ofType: nil)
+            let urlFondo = URL(fileURLWithPath: path!)
+            do{
+               player2 = try AVAudioPlayer(contentsOf: urlFondo)
+            } catch {
+                
+            }
+        } else {
+            reproduccion = true
+        }
+        
         if player != nil {
             player?.play()
+            
         }
         
     }
-    var player : AVAudioPlayer?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "AUDIO.wav", ofType: nil)
+        let path = Bundle.main.path(forResource: "RUIZ_02.wav", ofType: nil)
         let url = URL(fileURLWithPath: path!)
         
+
         do {
             player = try AVAudioPlayer(contentsOf: url)
+        
+            
         } catch {
             
         }

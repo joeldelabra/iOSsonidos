@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9B6AF523107EC6002A1AC6 /* Chavez_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D9B6AF423107EC6002A1AC6 /* Chavez_03.wav */; };
+		3D9B6AF723107ED0002A1AC6 /* RUIZ_02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D9B6AF623107ED0002A1AC6 /* RUIZ_02.wav */; };
+		3D9B6AF92310891A002A1AC6 /* PantallaAzulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B6AF82310891A002A1AC6 /* PantallaAzulController.swift */; };
 		3DEB126E230DEA1C00C38BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB126D230DEA1C00C38BB2 /* AppDelegate.swift */; };
 		3DEB1270230DEA1C00C38BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB126F230DEA1C00C38BB2 /* ViewController.swift */; };
 		3DEB1273230DEA1C00C38BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB1271230DEA1C00C38BB2 /* Main.storyboard */; };
@@ -14,7 +17,6 @@
 		3DEB1278230DEA1E00C38BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB1276230DEA1E00C38BB2 /* LaunchScreen.storyboard */; };
 		3DEB1283230DEA1F00C38BB2 /* iOsSonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB1282230DEA1F00C38BB2 /* iOsSonidosTests.swift */; };
 		3DEB128E230DEA1F00C38BB2 /* iOsSonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB128D230DEA1F00C38BB2 /* iOsSonidosUITests.swift */; };
-		3DEB129E230DEC8E00C38BB2 /* AUDIO.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DEB129C230DEC8D00C38BB2 /* AUDIO.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D9B6AF423107EC6002A1AC6 /* Chavez_03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chavez_03.wav; sourceTree = "<group>"; };
+		3D9B6AF623107ED0002A1AC6 /* RUIZ_02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RUIZ_02.wav; sourceTree = "<group>"; };
+		3D9B6AF82310891A002A1AC6 /* PantallaAzulController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaAzulController.swift; sourceTree = "<group>"; };
 		3DEB126A230DEA1C00C38BB2 /* iOsSonidos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOsSonidos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEB126D230DEA1C00C38BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEB126F230DEA1C00C38BB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +53,6 @@
 		3DEB1289230DEA1F00C38BB2 /* iOsSonidosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOsSonidosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEB128D230DEA1F00C38BB2 /* iOsSonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOsSonidosUITests.swift; sourceTree = "<group>"; };
 		3DEB128F230DEA1F00C38BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DEB129C230DEC8D00C38BB2 /* AUDIO.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AUDIO.wav; path = ../../AUDIO.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		3DEB126C230DEA1C00C38BB2 /* iOsSonidos */ = {
 			isa = PBXGroup;
 			children = (
-				3DEB129C230DEC8D00C38BB2 /* AUDIO.wav */,
+				3D9B6AF423107EC6002A1AC6 /* Chavez_03.wav */,
 				3DEB126D230DEA1C00C38BB2 /* AppDelegate.swift */,
+				3D9B6AF623107ED0002A1AC6 /* RUIZ_02.wav */,
 				3DEB126F230DEA1C00C38BB2 /* ViewController.swift */,
 				3DEB1271230DEA1C00C38BB2 /* Main.storyboard */,
 				3DEB1274230DEA1E00C38BB2 /* Assets.xcassets */,
 				3DEB1276230DEA1E00C38BB2 /* LaunchScreen.storyboard */,
 				3DEB1279230DEA1E00C38BB2 /* Info.plist */,
+				3D9B6AF82310891A002A1AC6 /* PantallaAzulController.swift */,
 			);
 			path = iOsSonidos;
 			sourceTree = "<group>";
@@ -233,7 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEB1278230DEA1E00C38BB2 /* LaunchScreen.storyboard in Resources */,
-				3DEB129E230DEC8E00C38BB2 /* AUDIO.wav in Resources */,
+				3D9B6AF723107ED0002A1AC6 /* RUIZ_02.wav in Resources */,
+				3D9B6AF523107EC6002A1AC6 /* Chavez_03.wav in Resources */,
 				3DEB1275230DEA1E00C38BB2 /* Assets.xcassets in Resources */,
 				3DEB1273230DEA1C00C38BB2 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			files = (
 				3DEB1270230DEA1C00C38BB2 /* ViewController.swift in Sources */,
 				3DEB126E230DEA1C00C38BB2 /* AppDelegate.swift in Sources */,
+				3D9B6AF92310891A002A1AC6 /* PantallaAzulController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
